@@ -468,14 +468,13 @@ margin-top: 9px;
 }
 .modal-close{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 8px;
+    right: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color:#FFFFFF;
     padding: 6px;
-    margin-top: 8px;
-    margin-right: 8px;
+    cursor: pointer;
 }
 .icon-close{
     display: flex;
@@ -556,6 +555,8 @@ margin-top: 9px;
     overflow: hidden;
 }
 .overlay-back{
+    display: flex;
+    align-items: center;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -567,8 +568,8 @@ margin-top: 9px;
 }
 
 .overlay-text{
-        padding: 63px 24px;
-            margin: 0;
+        padding:0px 24px;
+        margin:0;
             font-size: 18px;
             line-height: 1.55;
             letter-spacing: 0.03em;
